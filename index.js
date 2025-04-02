@@ -41,7 +41,7 @@ function displayWeather(data) {
   temp.textContent = `${Math.round(data.main.temp)}°C`;
   weatherCondition.textContent = data.weather[0].description;
   humidity.textContent = data.main.humidity;
-  wind.textContent = Math.round(data.wind.speed * 3.6); // Convert m/s to km/h
+  wind.textContent = Math.round(data.wind.speed * 3.6); 
 
   weatherData.style.display = "block";
 }
