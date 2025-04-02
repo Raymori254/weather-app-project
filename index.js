@@ -1,4 +1,3 @@
-
 const API_KEY = "39d93ec4e6a9a34548a1442a502b922f";
 
 const cityInput = document.getElementById("city-input");
@@ -36,7 +35,6 @@ async function getWeatherData(city) {
     loading.style.display = "none";
   }
 }
-
 
 function displayWeather(data) {
   cityName.textContent = data.name;
